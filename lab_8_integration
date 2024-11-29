@@ -1,0 +1,6 @@
+import math 
+from calibration_angles import *
+from inverse_kimatics import *
+
+print(calibrate_angles)
+print(inverse_kinematics)

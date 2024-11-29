@@ -58,15 +58,3 @@ def send_compensated_angle(desired_angle, servo_name, error_table):
 
     # Send this compensated angle to the servo (pseudo-code)
     # servo.send(servo_name, compensated_angle)
-
-# Example usage:
-# error_table = calibration_setup('calibration_data_X.txt')
-# send_compensated_angle(90, 'shoulder', error_table)
-
-
-# Example usage (Uncomment for testing)
-# alpha, beta = inverse_kinematics(50, 50)
-# print(f"Alpha: {alpha}, Beta: {beta}")
-# calibrate_angles("test_jig_01")
-# errors = calibration_setup("test_jig_01")
-# send_compensated_angle(45, errors, 'shoulder')
